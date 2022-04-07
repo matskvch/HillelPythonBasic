@@ -1,3 +1,4 @@
 # Hillel_Python_Basic
-Hillel homework and tasks
+# Python Basic (30.03.2022) Кисеев
+Hillel homeworks and tasks
 :)
