@@ -1,8 +1,6 @@
-# ДЗ 7. Последовательности целых чисел
-
 max_num = min_num = num = int(input('Введите число: '))
-summa, count = 0, 0
-even, odd = 0, 0    # Четное, Нечетное
+summa, count = 0, 0     # Сумма, счетчик
+even, odd = 0, 0        # Четное, Нечетное
 while num != 0:
     summa += num
     count += 1
@@ -12,7 +10,7 @@ while num != 0:
         min_num = num
     if num % 2 == 0:
         even += 1
-    if num % 2 != 0:
+    else:
         odd += 1
     num = int(input('Введите число: '))
 print('Всего вы ввели', count, 'чисел')
